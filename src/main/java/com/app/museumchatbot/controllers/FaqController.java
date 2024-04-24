@@ -8,6 +8,7 @@ import com.app.museumchatbot.services.FaqService;
 
 @RestController
 @RequestMapping("api/chat")
+@CrossOrigin(origins = "*")
 public class FaqController {
     final private FaqService faqService;
 
